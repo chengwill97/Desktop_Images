@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# edit the path to where the Project_Log_Manager_V2.py file is
+python /Users/WillC/Documents/Code/python/Desktop_Images/Desktop_Images.py
