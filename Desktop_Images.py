@@ -6,7 +6,7 @@ reddit = praw.Reddit(client_id='auEVwX9t9sFF7A',
                      client_secret='zxmzCiOsFgwtMwfIvRRHaZsJU8s',
                      user_agent='EarthPorn_Scrape',
                      username='Wills_Python',
-                     password='clickthelink')
+                     password='')
 
 subreddit = reddit.subreddit('EarthPorn')
 
