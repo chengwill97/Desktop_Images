@@ -2,11 +2,14 @@
 
 import praw, urllib.request, os
 
+insert_username='Wills_Python"
+insert_password="Wills_Python"
+
 reddit = praw.Reddit(client_id='auEVwX9t9sFF7A',
                      client_secret='zxmzCiOsFgwtMwfIvRRHaZsJU8s',
                      user_agent='EarthPorn_Scrape',
-                     username='Wills_Python',
-                     password='')
+                     username=insert_username,
+                     password=insert_password)
 
 subreddit = reddit.subreddit('EarthPorn')
 
